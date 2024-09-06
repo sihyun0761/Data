@@ -15,6 +15,16 @@
         - 64기가 이상 마이크로sd카드
   
         - 그외 쿨링펜, lcd, 또는 모니터. hdmi
+
+2. jetson nano에 대하여
+
+welcome 부터 따라하기 https://learn.nvidia.com/courses/course?course_id=course-v1:DLI+S-RX-02+V2&unit=block-v1:DLI+S-RX-02+V2+type@vertical+block@aba5104413ae454c8c63a6f301925337
+
+3. jetpack downloads
+
+https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
+
+
 ### 데이터 크롤링 하기
 ***
 
