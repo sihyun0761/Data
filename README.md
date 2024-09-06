@@ -25,9 +25,10 @@ welcome 부터 따라하기 https://learn.nvidia.com/courses/course?course_id=co
 https://developer.nvidia.com/embedded/learn/get-started-jetson-nano-devkit#write
 
 4. 이미지 파일 굽기
-    sd card formatter  download
-    balenaetcher download --->  이미지 굽기
-    제슨나노에 sd넣고 우분투 설치
+
+     sd card formatter  download
+     balenaetcher download --->  이미지 굽기
+     제슨나노에 sd넣고 우분투 설치
 
 ### 데이터 크롤링 하기
 ***
