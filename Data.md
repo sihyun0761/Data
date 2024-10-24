@@ -16,33 +16,3 @@ AutoCrawler-master 폴더 안의 keywords.txt을 연다.
 20개로 제한해서 하기
     python main.py --limit 20
 
-### yolo 가상환경 만들기
-
-##### yolo 가상환경 만들기
-    uname -a
-    wget https://github.com/Archiconda/build-tools/releases/download/0.2.3/Archiconda3-0.2.3-Linux-aarch64.sh
-    sudo chmod 755 Archiconda3-0.2.3-Linux-aarch64.sh
-    ls
-##### 결과
-
-  Archiconda3-0.2.3-Linux-aarch64.sh Pictures Desktop Public Documents Templates Downloads Videos examples.desktop yolov8_4gb Music
-
-     ./Archiconda3-0.2.3-Linux-aarch64.sh
-실행 중 선택이라 뜨면
-yes---> enter ---> yes in your /home/ldh/.bashrc ? [yes|no] [no] >>> yes
-이렇게 한다.
-
-    conda env list
-    conda activate base
-    jetson_release 
-
-    
-### python 3.8 가상환경 만들기
-***
-base가 아닌 native에서 실행
-    conda create -n yolo python=3.8 -y
-    conda env list
-
-    conda activate yolo
-
- 
