@@ -16,6 +16,8 @@
 
  - 검색하고 자 하는 키워드를 한 줄에 한 개씩 쓴 후 저장한다.
 
+![R1280x0](https://github.com/user-attachments/assets/825acf9e-0494-4483-9e66-8face6779243)
+
 ##### 크롤링 실행
 
     python main.py
@@ -23,6 +25,14 @@
 20개로 제한해서 하기
 
     python main.py --limit 20
+##### 크롤링 결과 확인
+ - download 폴더에 한 검색어설정한 수만큼의 사진이 다운받아 진 것을 확인한다.
+기다리면 download 폴더에 클래스 별로 폴더가 만들어진다.
+
+![R1280x0](https://github.com/user-attachments/assets/105906c2-37f8-43c0-9bcf-5be109dd4c48)
+***
+![R1280x0](https://github.com/user-attachments/assets/d7d7a39f-170f-4ddf-a8e8-274fc6f5fc91)
+***
 ##### 데이터 정제하기
 
 데이터 정제를 하는 이유는 한 사진에 내가 입력한 키워드가 2개 이상 들어가 있을 수 있기 때문이다. 만약 동시에 있다면 클래스를 2개가 아닌 하나로만 설정할 수 있다.
